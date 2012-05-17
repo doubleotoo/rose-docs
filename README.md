@@ -1,15 +1,17 @@
 rose-docs
 =========
 
-Documentation for the ROSE compiler project.
+**User** documentation for the ROSE compiler project.
 
-## Documentation
+*This is a work in progress.*
 
-This is a work in progress.
+The purpose of this documentation is to make it easy for users to get up and running with ROSE.
 
-Please check out the complete, existing documentation [http://rosecompiler.org/documents.html](http://rosecompiler.org/documents.html)
+Please check out the full documentation [http://rosecompiler.org/documents.html](http://rosecompiler.org/documents.html)
 
 ## CONTRIBUTING:
+
+Please share your nifty ROSE tips, tricks, and recipes with us!
 
 ### General guidelines
 
@@ -22,6 +24,15 @@ Please check out the complete, existing documentation [http://rosecompiler.org/d
   as you can in the commit message/pull request, following these
 [guidelines on writing a good commit message](http://spheredev.org/wiki/Git_for_the_lazy#Writing_good_commit_messages)
 * That's it!
+
+### Coding standards
+
+* Please follow some standard coding guidelines, such as those used by Google-originated
+open-source projects [http://code.google.com/p/google-styleguide/](http://code.google.com/p/google-styleguide/)
+
+* Use underscores `_` instead of hyphens `-` in file and directory names (e.g. `loop_processing`, not `loop-processing`)
+
+* Annotate source code clearly. Make it helpful!
 
 ### Tutorial guidelines
 
