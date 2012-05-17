@@ -15,8 +15,11 @@ Please share your nifty ROSE tips, tricks, and recipes with us!
 
 ### General guidelines
 
+All documentation must be written in **[Markdown](http://daringfireball.net/projects/markdown/)** (not in GitHub Flavored Markdown).
+Please use the `.md` extension only.
+
 * Fork [rose-compiler/rose-docs](https://github.com/rose-compiler/rose-docs)
-* Develop on the master branch (default after `git-clone`; or edit directly in GitHub)
+* Develop on the master branch (default after `git-clone`)
 * Rebase your branch so that all your changes are reflected in one
   commit
 * Push to your GitHub repository - `git push origin master`
