@@ -82,3 +82,12 @@ rose-docs/
   |   |  |
   ... ...  ...
 ```
+
+### TODO
+
+In the future, documentation components may be separated out into their own GitHub repositories
+to make use of independent issue tracking, etc.
+
+Documentation may be converted to other formats as necessary. Therefore, the portability
+of our documentation is critical. This is one reason why we want to make sure we're conforming
+to *standard* practices and technologies.
