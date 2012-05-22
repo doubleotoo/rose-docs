@@ -17,6 +17,11 @@ For example, to get help with "Array Dimensions" in ROSE:
 
   [`site:https://mailman.nersc.gov/pipermail/rose-public array dimensions`](http://www.google.com/search?client=safari&rls=en&q=site:https://mailman.nersc.gov/pipermail/rose-public+array+dimension&ie=UTF-8&oe=UTF-8#hl=en&client=safari&rls=en&sclient=psy-ab&q=site:https%3A%2F%2Fmailman.nersc.gov%2Fpipermail%2Frose-public+array+dimensions&oq=site:https%3A%2F%2Fmailman.nersc.gov%2Fpipermail%2Frose-public+array+dimensions&aq=f&aqi=&aql=1&gs_l=serp.3...1669712.1669712.0.1670080.2.2.0.0.0.0.173.338.0j2.2.0.eqn%2Cfixedpos%3Dfalse%2Cboost_normal%3D40%2Cboost_high%3D40%2Ccconf%3D0-95%2Cmin_length%3D2%2Crate_low%3D0-015%2Crate_high%3D0-015.1.0.0.SMLRHUX6MK0&pbx=1&bav=on.2,or.r_gc.r_pw.r_cp.r_qf.,cf.osb&fp=17c6eb2a8dc3e7bb&biw=1629&bih=1008)
 
+## Submitting Issues
+
+Please refer to [submitting_issues.md](https://github.com/rose-compiler/rose-docs/blob/master/submitting_issues.md)
+for guidelines on submitting an Issue (request/bug/enhancement).
+
 ## CONTRIBUTING:
 
 Please share your nifty ROSE tips, tricks, and recipes with us!
@@ -90,11 +95,6 @@ rose-docs/
   |   |  |
   ... ...  ...
 ```
-
-## Submitting Issues
-
-Please refer to [submitting_issues.md](https://github.com/rose-compiler/rose-docs/blob/master/submitting_issues.md)
-for guidelines on submitting an Issue (request/bug/enhancement).
 
 ## TODO
 
