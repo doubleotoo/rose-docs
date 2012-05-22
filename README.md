@@ -91,7 +91,12 @@ rose-docs/
   ... ...  ...
 ```
 
-### TODO
+## Submitting Issues
+
+Please refer to [submitting_issues.md](https://github.com/rose-compiler/rose-docs/blob/master/submitting_issues.md)
+for guidelines on submitting an Issue (request/bug/enhancement).
+
+## TODO
 
 In the future, documentation components may be separated out into their own GitHub repositories
 to make use of independent issue tracking, etc.
