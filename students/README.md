@@ -3,6 +3,10 @@ students
 
 A collection of useful *assets* for student interns working on ROSE.
 
+## Dashboard
+
+The dashboard is a work in progress https://hudson-rose-30:8443/
+
 ## Installing ROSE
 
 * Mac: https://github.com/rose-compiler/rose/wiki/Installing-ROSE
