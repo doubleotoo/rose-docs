@@ -5,7 +5,7 @@ A collection of useful *assets* for student interns working on ROSE.
 
 ## Dashboard
 
-The dashboard is a work in progress https://hudson-rose-30:8443/
+The dashboard is a work in progress [https://hudson-rose-30:8443/](https://hudson-rose-30:8443/)
 
 ## Installing ROSE
 
