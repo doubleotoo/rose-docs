@@ -1,7 +1,6 @@
-Tutorials
-=========
+Tutorials / core
+================
 
-* `core` contains `$ROSE/src` specific tutorials
-* `projects` contains `$ROSE/projects` specific tutorials
+Tutorials specific to `$ROSE/src`.
 
 Existing tutorials can be found at [rosecompiler.org/ROSE_Tutorial/ROSE-Tutorial.pdf](http://rosecompiler.org/ROSE_Tutorial/ROSE-Tutorial.pdf).
