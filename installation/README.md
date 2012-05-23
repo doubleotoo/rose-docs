@@ -7,15 +7,15 @@ download the precompiled package from the MacPorts website.
 2. **As User**: Installing MacPorts **without administrator privileges** will
 require you to compile MacPorts from source:
 
-    **Download** the source
+    **Download** the [latest source](http://www.macports.org/install.php#source)
 
-    ``` bash
-      $ wget https://distfiles.macports.org/MacPorts/MacPorts-2.0.4.tar.gz
+   ``` bash
+      $ curl -O https://distfiles.macports.org/MacPorts/MacPorts-<latest>.tar.gz
     ```
 
-    ``` bash
-      $ curl -O https://distfiles.macports.org/MacPorts/MacPorts-2.0.4.tar.gz
-    ```
+      Note: If your MacPorts core installation is out-of-date, running `port selfupdate` will try to upgrade it.
+      The problem is, the upgrade does not pass the correct `configure` options.
+      In the process, the `--with-install-group=<group>` argument becomes malformed/lost.
 
     --
     **Configure** MacPorts without root privileges. For example,
