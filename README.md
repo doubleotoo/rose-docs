@@ -33,7 +33,7 @@ Please use the `.md` extension only.
 
 * Fork [rose-compiler/rose-docs](https://github.com/rose-compiler/rose-docs)
 * Develop on the master branch (default after `git-clone`)
-* Rebase your branch so that all your changes are reflected in one
+* [Rebase](http://help.github.com/rebase/) your branch so that all your changes are reflected in one
   commit
 * Push to your GitHub repository - `git push origin master`
 * Create a Pull Request from your GitHub repository, include as much
