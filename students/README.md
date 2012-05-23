@@ -69,7 +69,7 @@ Thanks to Phil Miller (summer 2011) for contributing this.
 
 ## Getting Help
 
-Justin should be your first point of contact for any questions/concerns.
+Justin (too1) should be your first point of contact for any questions/concerns.
 
 ## Contributing
 
