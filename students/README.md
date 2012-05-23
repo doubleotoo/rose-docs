@@ -32,8 +32,9 @@ more-or-less temporary build space.
 
 ### Subscribe to the mailing lists!
 
-[rose-public@nersc.gov](https://mailman.nersc.gov/mailman/listinfo/rose-public)
-[rose-developer@nersc.gov](https://mailman.nersc.gov/mailman/listinfo/rose-developer)
+* [rose-public@nersc.gov](https://mailman.nersc.gov/mailman/listinfo/rose-public) - for general questions
+
+* [rose-developer@nersc.gov](https://mailman.nersc.gov/mailman/listinfo/rose-developer) - for "internal" communications
 
 ### Tool chain
 
