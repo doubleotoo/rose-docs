@@ -36,7 +36,7 @@ Please use the `.md` extension only.
 * [Rebase](http://help.github.com/rebase/) your branch so that all your changes are reflected in one
   commit
 * Push to your GitHub repository - `git push origin master`
-* Create a Pull Request from your GitHub repository, include as much
+* Create a [Pull Request](http://help.github.com/send-pull-requests/) from your GitHub repository, include as much
   as you can in the commit message/pull request, following these
 [guidelines on writing a good commit message](http://spheredev.org/wiki/Git_for_the_lazy#Writing_good_commit_messages)
 * That's it!
