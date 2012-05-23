@@ -16,6 +16,7 @@ require you to compile MacPorts from source:
       Note: If your MacPorts core installation is out-of-date, running `port selfupdate` will try to upgrade it.
       The problem is, the upgrade does not pass the correct `configure` options.
       In the process, the `--with-install-group=<group>` argument becomes malformed/lost.
+      Here is an example error message:
 
       ``` bash
       ...
