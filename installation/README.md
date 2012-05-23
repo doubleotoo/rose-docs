@@ -17,6 +17,13 @@ require you to compile MacPorts from source:
       The problem is, the upgrade does not pass the correct `configure` options.
       In the process, the `--with-install-group=<group>` argument becomes malformed/lost.
 
+      ``` bash
+      ...
+      /usr/bin/install -c -d -o $USER -g THE-LABrose -m 755 /Users/$USER/development/opt/macports
+      install: THE-LABrose: Invalid argument
+      make[1]: *** [install] Error 67
+      make: *** [install] Error 1
+      ```
     --
     **Configure** MacPorts without root privileges. For example,
 
