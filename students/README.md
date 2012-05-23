@@ -25,10 +25,15 @@ local diskspace `/export/tmp.<your-oun>` for you on that particular machine.
 ```
 
 **Note**: Linux users should be developing in their local disk space allocation
-`/export/tmp.<your-oun>`. This space is local to the machine, whereas your
-`$HOME` directory is mounted on the Network Filesystem (NFS). It's important
+`/export/tmp.<your-oun>` (created upon request). This space is local to the machine,
+whereas your `$HOME` directory is mounted on the Network Filesystem (NFS). It's important
 to remember that this local space is **not** backed up and should be considered
 more-or-less temporary build space.
+
+### Subscribe to the mailing lists!
+
+[rose-public@nersc.gov](https://mailman.nersc.gov/mailman/listinfo/rose-public)
+[rose-developer@nersc.gov](https://mailman.nersc.gov/mailman/listinfo/rose-developer)
 
 ### Tool chain
 
