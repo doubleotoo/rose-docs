@@ -74,31 +74,39 @@ more rapidly.*
 Thanks to Phil Miller (summer 2011) for contributing this.
 
 ## SSH to Remote Machines
-To connect to machines outside LLNL through SSH, you need to open your firewall for SSH connection. You need your OUN 
-and PAC to do it at https://cspservices.llnl.gov/eor.
+Connecting to machines outside of LLNL (through SSH) requires you to open the firewall for your machine.
 
-SSH can be set up with public/private key pairs so that you don't have to type the password each time.
+**Firewall web form**: https://cspservices.llnl.gov/eor -- login with your OUN and PAC
 
-First, generate the SSH key on your iMac or linux machine.  You can choose to provide passphrase or 
-leave it blank.
-``` bash
-$ ssh-keygen -t rsa
-Generating public/private rsa key pair.
-Enter file in which to save the key (/Users/$USER/.ssh/id_rsa): 
-Enter passphrase (empty for no passphrase): 
-Enter same passphrase again: 
-```
-Second, use ssh to create a directory ~/.ssh at your remote machine.
-``` bash
-$ ssh username@remote_machine mkdir -p .ssh
-username@remote_machine's password: 
-```
-Third, append SSH key to your remote machine at username@remote_machine:.ssh/authorized_keys.
-``` bash
-$ cat .ssh/id_rsa.pub | ssh username@remote_machine 'cat >> .ssh/authorized_keys'
-username@remote_machine's password:
-```
-Finally you can login to your remote machine without typing password.
+### SSH Key Pairs (passwordless authentication)
+SSH can be set up with public/private key pairs so that you don't have to type your password each time
+you SSH into a machine.
+
+1. Generate the SSH key-pair on your machine: (the passphrase is optional)
+
+    ``` bash
+    $ ssh-keygen -t rsa
+    Generating public/private rsa key pair.
+    Enter file in which to save the key (/Users/$USER/.ssh/id_rsa): <enter>
+    Enter passphrase (empty for no passphrase): <enter>
+    Enter same passphrase again: <enter>
+    ```
+
+2. Use `ssh` to create a directory `~/.ssh` on your remote machine:
+
+    ``` bash
+    $ ssh <username>@<remote_machine> mkdir -p ~/.ssh
+    <username>@<remote_machine>'s password: 
+    ```
+    
+3. Append your SSH public key `id_rsa.pub` to your remote machine's `~/.ssh/authorized_keys` file:
+
+    ``` bash
+    $ cat ~/.ssh/id_rsa.pub | ssh <username>@<remote_machine> 'cat >> ~/.ssh/authorized_keys'
+    <username>@<remote_machine>'s password:
+    ```
+
+4. **That's it!** Now you can login to your remote machine without typing your password.
 
 ## Getting Help
 
