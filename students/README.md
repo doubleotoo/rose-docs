@@ -73,6 +73,33 @@ more rapidly.*
 
 Thanks to Phil Miller (summer 2011) for contributing this.
 
+## SSH to Remote Machines
+To connect to machines outside LLNL through SSH, you need to open your firewall for SSH connection. You need your OUN 
+and PAC to do it at https://cspservices.llnl.gov/eor.
+
+SSH can be set up with public/private key pairs so that you don't have to type the password each time.
+
+First, generate the SSH key on your iMac or linux machine.  You can choose to provide passphrase or 
+leave it blank.
+``` bash
+$ ssh-keygen -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/$USER/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+```
+Second, use ssh to create a directory ~/.ssh at your remote machine.
+``` bash
+$ ssh username@remote_machine mkdir -p .ssh
+username@remote_machine's password: 
+```
+Third, append SSH key to your remote machine at username@remote_machine:.ssh/authorized_keys.
+``` bash
+$ cat .ssh/id_rsa.pub | ssh username@remote_machine 'cat >> .ssh/authorized_keys'
+username@remote_machine's password:
+```
+Finally you can login to your remote machine without typing password.
+
 ## Getting Help
 
 Justin (too1) should be your first point of contact for any questions/concerns.
