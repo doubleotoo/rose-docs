@@ -1,7 +1,7 @@
-students
-========
+collaborators
+=============
 
-A collection of useful *assets* for student interns working on ROSE.
+A collection of useful *assets* for collaborators working on ROSE.
 
 ## Dashboard
 
@@ -115,5 +115,5 @@ Justin (too1) should be your first point of contact for any questions/concerns.
 ## Contributing
 
 Please fork this repository and send us a pull request with useful tips, tricks, or insights
-that you come across during your internship with us. We would like to eliminate as many
+that you come across during your collaboration with us. We would like to eliminate as many
 headaches as possible and remove any barriers that keep you from focusing on the *good stuff*.
