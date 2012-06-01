@@ -31,22 +31,20 @@ ROSE Install Guide - `Clang` Frontend
      $ tar -xzf llvm-3.0.tar.gz
 
      # Clang - must be unpacked into [$LLVM_SRC/tools] as [clang]
-     $ cd llvm-3.0-src/tools/
+     $ cd llvm-3.0.src/tools/
      $ tar -xzf ../../clang-3.0.tar.gz
-     $ mv clang-3.0-src/ clang/
+     $ mv clang-3.0.src/ clang/
    ```
 
 3. **Build and install**
 
    ``` bash
-     $ cd "$LLVM_SRC"
-
      # use a separate build tree to keep things clean
      $ mkdir build-llvm
      $ cd build-llvm
 
      # configure
-     $ $LLVM-src/configure --prefix="/your/desired/install/path/"
+     $ $LLVM_SRC/configure --prefix="/your/desired/install/path/"
      $ export REQUIRES_RTTI=1
   
      # build and install
