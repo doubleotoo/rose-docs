@@ -3,13 +3,13 @@ SageBuilder Tutorials
 
 Descrition, link to docs
 
-## I - [Introduction](./introduction)
+## I - [Introduction](./builder/introduction)
 
 #### 1 - Hello World
 
 #### 2 - Hello You
 
-## II - [Generic](./generic)
+## II - [Generic](./builder/generic)
 
 Constructs common to most languages, we outlined the difference between language when they exist.
 
@@ -33,19 +33,19 @@ How to build an expression...
 
 Combine the 4 previous topics in a few realistic examples... 
 
-## III - [C](./c)
+## III - [C](./builder/c)
 
 Construct specific to C
 
-## IV - [Fortran](./fortran)
+## IV - [Fortran](./builder/fortran)
 
 Construct specific to Fortan
 
-## V - [C++](./c++)
+## V - [C++](./builder/c++)
 
 Construct specific to C++
 
-## VI - [JAVA](./java)
+## VI - [JAVA](./builder/java)
 
 Construct specific to JAVA
 
