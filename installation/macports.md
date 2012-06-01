@@ -1,6 +1,8 @@
 ROSE Install Guide - Mac OS
 ===========================
 
+* [MacPorts Tool Chain](./macports.md#macports-tool-chain)
+
 ## MacPorts Tool Chain
 
 ### Install MacPorts (http://www.macports.org)
