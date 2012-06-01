@@ -3,49 +3,49 @@ SageBuilder Tutorials
 
 Descrition, link to docs
 
-### Introduction
+## I - [Introduction](./builder/introduction)
 
 #### 1 - Hello World
 
 #### 2 - Hello You
 
-### Basic
+## II - [Generic](./builder/generic)
 
-Construct common to most languages, we outlined the difference between language when they exist.
+Constructs common to most languages, we outlined the difference between language when they exist.
 
-#### Declarations
+### 1 - Declarations
 
 How to build a declaration for a function, a structure or a variable.
 
-#### Types
+### 2 - Types
 
 How to build a type for an array, a function, or a structure.
 
-#### Statement
+### 3 - Statements
 
 How to build different type of statement: control (condition, loop, switch) or expression.
 
-#### Expression
+### 4 - Expressions
 
 How to build an expression...
 
-#### Real Examples
+### 5 - Complete Examples
 
 Combine the 4 previous topics in a few realistic examples... 
 
-### C
+## III - [C](./builder/c)
 
 Construct specific to C
 
-### Fortran
+## IV - [Fortran](./builder/fortran)
 
 Construct specific to Fortan
 
-### C++
+## V - [C++](./builder/c++)
 
 Construct specific to C++
 
-### JAVA
+## VI - [JAVA](./builder/java)
 
 Construct specific to JAVA
 

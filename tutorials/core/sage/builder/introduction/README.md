@@ -1,9 +1,13 @@
 SageBuilder Tutorials
 =====================
 
+<<<<<<< HEAD
 Descrition, link to docs
 
 ### Introduction
+=======
+## I - Introduction
+>>>>>>> tristanvdb/master
 
 #### 1 - Hello World
 
