@@ -57,7 +57,9 @@ ROSE Install Guide - `Clang` Frontend
 1. **Configure** `ROSE` to use the `Clang` frontend
 
    ``` bash
-     # LLVM/Clang just needs to be in your `$PATH` for this to work
+     # LLVM/Clang just needs to be in your `$PATH` for this to work.
+     # ROSE uses `llvm-config` during `$ROSE/configure` to setup the
+     # necessary header/library paths, flags, etc.
      $ export PATH="$LLVM_INSTALL/bin:$PATH"
    
      # use a separate build tree to keep things clean
