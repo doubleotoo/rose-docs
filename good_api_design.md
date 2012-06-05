@@ -44,6 +44,14 @@ API Design
    * Class: what an instance represents
    * Method: contract between method and calling client (preconditions, postconditions, and side-effects)
    * Parameter: indicate units, form, ownership
+
+**Pre- and Post- Conditions**
+* The **precondition** statement indicates what must be true before the function is called.
+* The **postcondition** statement indicates what will be true when the function finishes its work.
+
+  ```
+  /// \post <return_value>.empty() == false
+  ```
  
 ### API vs. Implementation
 Implementation details should not impact the API. Don't let implementation details "leak" into the API.
