@@ -48,6 +48,17 @@ You are expected to submit code for testing and integration on a regular basis.
 
 The rule of thumb is **every 2-3 weeks**.
 
+> **Summer 2012**: code review is required. Please push to a `-review` branch and then notify either Dan, Leo,
+> or Justin.
+
+> For example,
+
+> ```bash
+>   $ git push origin HEAD:refs/heads/too1-bugfix-review
+> ```
+
+> This policy will be in effect until we switch to using an internally hosted GitHub for the central `rose` repository.
+
 ### Useful Definitions
 
 **Incremental development**: developing new functionality in small steps, where the resulting code 
@@ -71,14 +82,14 @@ of introduced bugs is lost. In exchange, multiple people working in the same par
 become less likely to step on each other's toes, because the relevant code changes are distributed
 more rapidly.*
 
-Thanks to Phil Miller (summer 2011) for contributing this.
+--Thanks to Phil Miller (summer 2011) for contributing this.
 
 ## SSH to Remote Machines
 Connecting to machines outside of LLNL (through SSH) requires you to open the firewall for your machine.
 
 **Firewall web form**: https://cspservices.llnl.gov/eor -- login with your OUN and PAC
 
-### SSH Key Pairs (passwordless authentication)
+#### SSH Key Pairs (passwordless authentication)
 SSH can be set up with public/private key pairs so that you don't have to type your password each time
 you SSH into a machine.
 
