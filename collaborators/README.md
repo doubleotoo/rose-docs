@@ -3,11 +3,23 @@ collaborators
 
 A collection of useful *assets* for collaborators working on ROSE.
 
-## Dashboard
+**Table of Contents**:
+
+1. [Dashboard](#dashboard)
+2. [Installing `ROSE`](#installing-rose)
+3. [Developing `ROSE`](#developing-rose)
+3. [Contributing to `ROSE`](#contributing-to-rose)
+5. [SSH to Remote Machines](#ssh-to-remote-machines)
+6. [Getting Help](#getting-help)
+7. [Contributing](#contributing)
+
+---
+
+## 1. Dashboard
 
 The dashboard is a work in progress [https://hudson-rose-30:8443/](https://hudson-rose-30:8443/)
 
-## Installing ROSE
+## 2. Installing `ROSE`
 
 * Mac: https://github.com/rose-compiler/rose/wiki/Installing-ROSE
 * Linux: http://rosecompiler.org/ROSE_InstallationInstructions.pdf
@@ -16,7 +28,7 @@ The dashboard is a work in progress [https://hudson-rose-30:8443/](https://hudso
 (more than likely) need to have your account setup. This includes allocating
 local diskspace `/export/tmp.<your-oun>` for you on that particular machine.
 
-## Developing ROSE
+## 3. Developing `ROSE`
 
 ### Validate that you're in the correct POSIX groups
 ``` bash
@@ -42,7 +54,9 @@ more-or-less temporary build space.
 * Linux: `<linux-machine>:/nfs/apps` contains a handful of useful tools (e.g. `gcc`).
   However, you will have to install the `Boost C++ Libraries` by yourself.
 
-## Submitting Code **every 2-3 weeks**
+## 4. Contributing to `ROSE`
+
+### Submit Code **every 2-3 weeks**
 
 You are expected to submit code for testing and integration on a regular basis.
 
@@ -84,7 +98,7 @@ more rapidly.*
 
 --Thanks to Phil Miller (summer 2011) for contributing this.
 
-## SSH to Remote Machines
+## 5. SSH to Remote Machines
 Connecting to machines outside of LLNL (through SSH) requires you to open the firewall for your machine.
 
 **Firewall web form**: https://cspservices.llnl.gov/eor -- login with your OUN and PAC
@@ -119,11 +133,11 @@ you SSH into a machine.
 
 4. **That's it!** Now you can login to your remote machine without typing your password.
 
-## Getting Help
+## 6. Getting Help
 
 Justin (too1) should be your first point of contact for any questions/concerns.
 
-## Contributing
+## 7. Contributing
 
 Please fork this repository and send us a pull request with useful tips, tricks, or insights
 that you come across during your collaboration with us. We would like to eliminate as many
