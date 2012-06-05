@@ -1,17 +1,17 @@
 collaborators
 =============
 
-A collection of useful *assets* for collaborators working on ROSE.
+A collection of useful *assets* for collaborators working on `ROSE`.
 
 **Table of Contents**:
 
-1. [Dashboard](#dashboard)
-2. [Installing `ROSE`](#installing-rose)
-3. [Developing `ROSE`](#developing-rose)
-3. [Contributing to `ROSE`](#contributing-to-rose)
-5. [SSH to Remote Machines](#ssh-to-remote-machines)
-6. [Getting Help](#getting-help)
-7. [Contributing](#contributing)
+1. [Dashboard](#1-dashboard)
+2. [Installing `ROSE`](#2-installing-rose)
+3. [Developing `ROSE`](#3-developing-rose)
+3. [Contributing to `ROSE`](#4-contributing-to-rose)
+5. [SSH to Remote Machines](#5-ssh-to-remote-machines)
+6. [Getting Help](#6-getting-help)
+7. [Contributing](#7-contributing)
 
 ---
 
