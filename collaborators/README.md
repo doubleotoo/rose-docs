@@ -47,7 +47,7 @@ The dashboard is a work in progress [https://hudson-rose-30:8443/](https://hudso
 
 ## 3. Installing `ROSE`
 
-* Mac: https://github.com/rose-compiler/rose/wiki/Installing-ROSE
+* Mac: [rose-docs/installation/macports.md](installation/macports.md)
 * Linux: http://rosecompiler.org/ROSE_InstallationInstructions.pdf
 
 **Note**: if you'd like to work on a Linux (RHEL5) machine, please ask. You will
