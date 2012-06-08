@@ -51,6 +51,19 @@ ROSE Install Guide - `Clang` Frontend
      $ make
      $ make install
    ```
+   
+4. **Validate installation**
+
+   * `${LLVM_INSTALL}/bin/clang`
+   * `${LLVM_INSTALL}/bin/llvm-config`
+   * `${LLVM_INSTALL}/include/*/*.inc` files: could be missing if you ran `make install` without running `make` first.
+     (Observed on `32-bit RHEL5` and `64-bit Ubuntu`.)
+
+     ```bash
+       $ find "${LLVM_INSTALL}" -name "*.inc"
+       ${LLVM_INSTALL}/include/clang/AST/AttrImpl.inc
+       ...
+     ```
 
 ## Build and Install `ROSE`
 
