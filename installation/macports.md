@@ -36,7 +36,7 @@ require you to compile MacPorts from source:
     **Configure** MacPorts without root privileges. For example,
 
     ``` bash
-      $ $MACPORTS/configure --prefix="/Users/$USER/development/opt/macports" --with-no-root-priviledges --with-install-user="$USER" --with-install-group=rose
+      $ $MACPORTS/configure --prefix="/Users/$USER/development/opt/macports" --with-no-root-privileges --with-install-user="$USER" --with-install-group=rose
     ```
 
     --

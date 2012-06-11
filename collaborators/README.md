@@ -22,32 +22,36 @@ The dashboard is a work in progress [https://hudson-rose-30:8443/](https://hudso
 
 ## 2. Fetching `ROSE`
 
-* External link: 
-  
+* Internal repository:
+
+  ```bash
+   $ git clone ssh://<machine>/nfs/casc/overture/ROSE/git/ROSE.git
   ```
+
+* External repository (mirror):
+
+  ```bash
    $ git clone https://github.com/rose-compiler/rose.git
   ```
-* Internal link: 
-  
-  ```
-   $ git clone ssh://hudson-rose-31/nfs/casc/overture/ROSE/git/ROSE.git
-  ```
 
-  **Note**: If the proxy machine does not have Git in it's path (e.g. `~/.bashrc`), you will see the following error message:
+  **Note**: If the proxy machine does not have Git in it's path (e.g. `~/.bashrc`),
+  you will encounter the following error message:
 
   ``` bash
-  $USER@hudson-rose-31's password: 
+  $USER@<machine>'s password:
   bash: git-upload-pack: command not found
-  fatal: The remote end hung up unexpectedly 
+  fatal: The remote end hung up unexpectedly
   ```
-  
-  You can add the following line to your `~/.bashrc`:
- 
- `source /nfs/apps/git/latest/setup.sh`
+
+  You can add the following line to your `~/.bashrc` (sourced for a non-interactive shell):
+
+  > ```bash
+    source /nfs/apps/git/latest/setup.sh`
+    ```
 
 ## 3. Installing `ROSE`
 
-* Mac: https://github.com/rose-compiler/rose/wiki/Installing-ROSE
+* Mac: [rose-docs/installation/macports.md](installation/macports.md)
 * Linux: http://rosecompiler.org/ROSE_InstallationInstructions.pdf
 
 **Note**: if you'd like to work on a Linux (RHEL5) machine, please ask. You will
