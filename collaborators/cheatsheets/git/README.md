@@ -5,10 +5,10 @@ Cheatsheets > Git
 
 **Problem**:
 
-  ```bash
-    $ git push ...
-    error: SSL certificate problem, verify that the CA cert is OK.
-  ```
+```bash
+  $ git push ...
+  error: SSL certificate problem, verify that the CA cert is OK.
+```
 
 **Solution**: Tell cURL to not check for SSL certificates:
 
