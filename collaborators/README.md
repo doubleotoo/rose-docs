@@ -6,12 +6,13 @@ A collection of useful *assets* for collaborators working on `ROSE`.
 **Table of Contents**:
 
 1. [Dashboard](#1-dashboard)
-2. [Installing `ROSE`](#2-installing-rose)
-3. [Developing `ROSE`](#3-developing-rose)
-3. [Contributing to `ROSE`](#4-contributing-to-rose)
-5. [SSH to Remote Machines](#5-ssh-to-remote-machines)
-6. [Getting Help](#6-getting-help)
-7. [Contributing](#7-contributing)
+2. [Fetching `ROSE`](#2-fetching-rose)
+3. [Installing `ROSE`](#3-installing-rose)
+4. [Developing `ROSE`](#4-developing-rose)
+5. [Contributing to `ROSE`](#5-contributing-to-rose)
+6. [SSH to Remote Machines](#6-ssh-to-remote-machines)
+7. [Getting Help](#7-getting-help)
+8. [Contributing](#8-contributing)
 
 ---
 
@@ -19,7 +20,36 @@ A collection of useful *assets* for collaborators working on `ROSE`.
 
 The dashboard is a work in progress [https://hudson-rose-30:8443/](https://hudson-rose-30:8443/)
 
-## 2. Installing `ROSE`
+## 2. Fetching `ROSE`
+
+* Internal repository:
+
+  ```bash
+   $ git clone ssh://<machine>/nfs/casc/overture/ROSE/git/ROSE.git
+  ```
+
+* External repository (mirror):
+
+  ```bash
+   $ git clone https://github.com/rose-compiler/rose.git
+  ```
+
+  **Note**: If the proxy machine does not have Git in it's path (e.g. `~/.bashrc`),
+  you will encounter the following error message:
+
+  ``` bash
+  $USER@<machine>'s password:
+  bash: git-upload-pack: command not found
+  fatal: The remote end hung up unexpectedly
+  ```
+
+  You can add the following line to your `~/.bashrc` (sourced for a non-interactive shell):
+
+  > ```bash
+    source /nfs/apps/git/latest/setup.sh`
+    ```
+
+## 3. Installing `ROSE`
 
 * Mac: [rose-docs/installation/macports.md](installation/macports.md)
 * Linux: http://rosecompiler.org/ROSE_InstallationInstructions.pdf
@@ -28,7 +58,7 @@ The dashboard is a work in progress [https://hudson-rose-30:8443/](https://hudso
 (more than likely) need to have your account setup. This includes allocating
 local diskspace `/export/tmp.<your-oun>` for you on that particular machine.
 
-## 3. Developing `ROSE`
+## 4. Developing `ROSE`
 
 ### Validate that you're in the correct POSIX groups
 ``` bash
@@ -54,7 +84,7 @@ more-or-less temporary build space.
 * Linux: `<linux-machine>:/nfs/apps` contains a handful of useful tools (e.g. `gcc`).
   However, you will have to install the `Boost C++ Libraries` by yourself.
 
-## 4. Contributing to `ROSE`
+## 5. Contributing to `ROSE`
 
 ### Submit Code **every 2-3 weeks**
 
@@ -98,7 +128,7 @@ more rapidly.*
 
 --Thanks to Phil Miller (summer 2011) for contributing this.
 
-## 5. SSH to Remote Machines
+## 6. SSH to Remote Machines
 Connecting to machines outside of LLNL (through SSH) requires you to open the firewall for your machine.
 
 **Firewall web form**: https://cspservices.llnl.gov/eor -- login with your OUN and PAC
@@ -133,11 +163,11 @@ you SSH into a machine.
 
 4. **That's it!** Now you can login to your remote machine without typing your password.
 
-## 6. Getting Help
+## 7. Getting Help
 
 Justin (too1) should be your first point of contact for any questions/concerns.
 
-## 7. Contributing
+## 8. Contributing
 
 Please fork this repository and send us a pull request with useful tips, tricks, or insights
 that you come across during your collaboration with us. We would like to eliminate as many
