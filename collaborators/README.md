@@ -46,7 +46,7 @@ The dashboard is a work in progress [https://hudson-rose-30:8443/](https://hudso
   You can add the following line to your `~/.bashrc` (sourced for a non-interactive shell):
 
   > ```bash
-    source /nfs/apps/git/latest/setup.sh`
+    source /nfs/apps/git/latest/setup.sh
     ```
 
 ## 3. Installing `ROSE`
