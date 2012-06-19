@@ -67,7 +67,16 @@ ROSE Install Guide - `Clang` Frontend
 
 ## Build and Install `ROSE`
 
-1. **Configure** `ROSE` to use the `Clang` frontend
+1. [Fetch ROSE](https://github.com/rose-compiler/rose-docs/tree/master/collaborators#2-fetching-rose)
+
+2. Generate Autotools files (*Developers only*)
+
+   ```bash
+     $ cd $ROSE
+     $ ./build
+   ```
+
+3. **Configure** `ROSE` to use the `Clang` frontend
 
    ``` bash
      # LLVM/Clang just needs to be in your `$PATH` for this to work.
