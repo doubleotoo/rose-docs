@@ -22,32 +22,44 @@ The dashboard is a work in progress [https://hudson-rose-30:8443/](https://hudso
 
 ## 2. Fetching `ROSE`
 
-* Internal repository:
+#### External repository (mirror)
 
-  ```bash
-   $ git clone ssh://<machine>/nfs/casc/overture/ROSE/git/ROSE.git
-  ```
+```bash
+  $ git clone https://github.com/rose-compiler/rose.git
+```
 
-* External repository (mirror):
+#### Internal repository
 
-  ```bash
-   $ git clone https://github.com/rose-compiler/rose.git
-  ```
+```bash
+  $ git clone ssh://<machine>/nfs/casc/overture/ROSE/git/ROSE.git
+```
 
-  **Note**: If the proxy machine does not have Git in it's path (e.g. `~/.bashrc`),
-  you will encounter the following error message:
+**Problem: `git-upload-pack: command not found`**
 
-  ``` bash
-  $USER@<machine>'s password:
-  bash: git-upload-pack: command not found
-  fatal: The remote end hung up unexpectedly
-  ```
+If the proxy `<machine>` does not have Git in it's path (e.g. `~/.bashrc`),
+you will encounter the following error message:
 
-  You can add the following line to your `~/.bashrc` (sourced for a non-interactive shell):
+```bash
+$USER@<machine>'s password:
+bash: git-upload-pack: command not found
+fatal: The remote end hung up unexpectedly
+```
 
-  > ```bash
-    source /nfs/apps/git/latest/setup.sh
-    ```
+**Solution: `git-upload-pack: command not found`**
+
+**Internal users** can add the following line to their `~/.bashrc` (sourced for a non-interactive shell):
+
+>
+```bash
+  # ~/.bashrc
+  source /nfs/apps/git/latest/setup.sh
+```
+
+Or, you can explicitly specify the path to `git-upload-pack` on the command-line:
+
+```bash
+  $ git clone <repository.git> --upload-pack </path/to/git/bin/git-upload-pack>
+```
 
 ## 3. Installing `ROSE`
 
