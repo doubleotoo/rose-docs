@@ -62,6 +62,30 @@ Or, you can explicitly specify the path to `git-upload-pack` on the command-line
   $ git clone <repository.git> --upload-pack </path/to/git/bin/git-upload-pack>
 ```
 
+**Problem: `Unable to find a remote tracking a canonical repository`**
+
+```bash
+  Unable to find a remote tracking a canonical repository.  Please add a
+  canonical repository as a remote and ensure it is up to date.  Currently
+  configured remotes are:
+    origin => https://github.com/$USER/<custom-name-for-ROSE>.git
+  Potential canonical repositories include:
+   anything ending with "rose.git" (case insensitive)
+```
+
+**Solution: `Unable to find a remote tracking a canonical repository`**
+
+As the error message explains, you will need to ensure that your repository's name
+is
+
+> anything ending with "rose.git" (case insensitive)
+
+Otherwise, you'll encounter an error during the build process when ROSE attempts to
+download an EDG binary with a miscomputed binary compatibility signature.
+
+To check your ROSE-EDG binary compatibility signature, simply run
+`$ROSE/scripts/bincompat-sig` from the top-level source directory.
+
 ## 3. Installing `ROSE`
 
 * Mac: [rose-docs/installation/macports.md](installation/macports.md)
