@@ -22,6 +22,8 @@ The dashboard is a work in progress [https://hudson-rose-30:8443/](https://hudso
 
 ## 2. Fetching `ROSE`
 
+*See [Github Workflow](https://github.com/rose-compiler/rose-docs/tree/master/collaborators/github)*
+
 * Internal repository:
 
   ```bash
