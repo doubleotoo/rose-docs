@@ -21,6 +21,7 @@ A collection of useful *assets* for collaborators working on `ROSE`.
 The dashboard is a work in progress [https://hudson-rose-30:8443/](https://hudson-rose-30:8443/)
 
 ## 2. Fetching `ROSE`
+*See [Github Workflow](https://github.com/rose-compiler/rose-docs/tree/master/collaborators/github)*
 
 #### External repository (mirror)
 

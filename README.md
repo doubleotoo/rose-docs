@@ -19,6 +19,9 @@ For example, to get help with "Array Dimensions" in ROSE:
 
 ## Submitting Issues
 
+Please open Issues at [rose-compiler/rose](https://github.com/rose-compiler/rose).
+These issues will have the `rose-docs` label.
+
 Please refer to [submitting_issues.md](https://github.com/rose-compiler/rose-docs/blob/master/submitting_issues.md)
 for guidelines on submitting an Issue (request/bug/enhancement).
 
